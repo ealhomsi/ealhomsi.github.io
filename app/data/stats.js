@@ -1,6 +1,6 @@
 const data = {
   age: {
-    label: 'Current age',
+    label: 'First program age',
     value: 0,
   },
   countries: {
@@ -10,7 +10,7 @@ const data = {
   },
   location: {
     label: 'Current city',
-    value: 'New York, NY',
+    value: 'Montréal, Quebec',
   },
 };
 

@@ -8,10 +8,10 @@ const PersonalStats = () => {
 
   const tick = () => {
     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
-    const birthTime = new Date('1990-02-05T09:24:00');
+    const birthTime = new Date('2010-02-05T09:24:00');
     setData(Object.assign({}, data, {
       age: {
-        label: 'Current age',
+        label: 'First program age',
         value: ((Date.now() - birthTime) / divisor).toFixed(11),
       },
     }));
