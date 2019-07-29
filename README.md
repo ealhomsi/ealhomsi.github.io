@@ -46,3 +46,6 @@ If using a custom url, modify the `CNAME` file to point to your URL. Modify the 
 
 ### License
 [MIT](./Public/LICENSE)
+
+### Forked from
+- [@mldangelo](https://github.com/mldangelo)
