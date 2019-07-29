@@ -1,83 +1,59 @@
 
 #### Intro
-I am a founder and the CTO of [Arthena](https://arthena.com) where I work on engineering infrastructure and build tools to price fine art. My primary job functions are as a data scientist and software engineer.
-<br>
-I am available to consult on interesting projects. I am particularly interested in social impact, education, inclusivity, and space. I enjoy advising companies and may even be available for pro-bono work depending on the time commitment and the project. If you would like to arrange a meeting, I am based in New York but travel to the San Francisco Bay Area frequently.
+
+So, My name is Elias and could be nicknamed Eli or Mr. E. I am originally from Syria and I have lived in both Lebanon and Canada.
+I like sports: hiking, swimming and running. I also like playing video games like Dota 2 and World of Warcraft.
+<br><br>
+
+I am an undergraduate software engineer student at [McGill](https://mcgill.ca) where I am studying towards my engineering degree. My primary goal is to graduate as soon as I can :P. I am also considering following my passion in doing a master's degree in Math (Number Theory).
+<br><br>
+
+Although interrested in academia and reasearch, I am a strong believer of gaining experience through practice. Through internships, I learned that studying SE in school and practicing it in industry are two different things. I am looking for exciting projects and good people to work with (full time or internship).
 <br><br>
 #### Currently
-At Arthena I have learned how to build teams and manage people, build relationships with customers, sell enterprise products, and build on-line predictive models for production environments. I've also learned how to build and maintain large web applications (see [arthena.com](https://arthena.com)).
+At Microsoft, I am working with the Location services team. I have learned how to work within teams, build relationships, and balance between work and life.
 <br><br>
 #### Some History
 
-- My parents put a computer in my bedroom in 1993 when I was 3. It was an old Tandy that ran MS-DOS. My favorite games were Street Rod 2, Wolfenstein 3D, and Tom and Jerry. It had a mechanical keyboard and a turbo button. To this day, I still don't know what pressing the turbo button really did.
+- In 2002, My parents got me my first PC. It was a Windows 95 and the MineSweeper game changed my life.
 
-- We subscribed to AOL in 1995. I still remember installing it from a floppy disk onto our brand new Packard Bell. It took years for me to send my first email.
+- In 2003, I wanted a penguin for my birthday. I also tried to convined my parents that we can keep it in the freezer.
 
-- In the summer of 1996, my uncle purchased [MegaRace](https://en.wikipedia.org/wiki/MegaRace) from [Media Play](https://en.wikipedia.org/wiki/Media_Play) and installed it on my mom's work computer. I might have endangered her business by using her computer too much.
+- In 2004, My father - who is a math teacher - taught me for the first time the concept of complex numbers. I continued years later to read on his college and university old books.
 
-- At 7, I discovered the mini-games hidden in Microsoft Office. I also beat Minesweeper on expert for the first time.
+- In 2005, I got a [PlayStation I](https://en.wikipedia.org/wiki/PlayStation_(console)) as a birthday present. I purchased 300 game [CD](https://en.wikipedia.org/wiki/Compact_disc) immediately.
 
-- At 8, my parents bought me a Sony Mavica MVC-FD71 digital camera after I stole their SLR one too many times. It could fit 10 images to a floppy disk at a 0.3MP resolution. I still have it and it still works. I've been taking photographs ever since, now with a Nikon D750, D800, and occasionally with a Mamiya 6II.
+- In 2006, I learned how to format a Windows XP using a floppy disk.
 
-- At 10, I built my first website with Microsoft FrontPage on our Pentium III [Gateway](https://en.wikipedia.org/wiki/Gateway,_Inc.). My website was terrible.
+- In 2011, I started studying towards my degree of Software Engineering at [Damascus University](https://en.wikipedia.org/wiki/Damascus_University), three years later I was the top performing student of my class.
 
-- I was 11 when I built my first [Tesla Coil](https://en.wikipedia.org/wiki/Tesla_coil) (without the permission of my parents). Over the next few years, I built several more including one of the first audio modulated coils and one of the first DRSSTCs.
+- In 2015, I immigrated to Montreal, Quebec in Canada and continued studying towards my degree at [Concordia University](https://www.concordia.ca/)
 
-- When I was 12, I set the all-time high record at my local laser tag facility by reverse engineering the charging station and weapon protocols with a photo-resistor, micro-cassette recorder, and a lot of patience. I was unstoppable.
+- In 2017, I transfered to [McGill University](https://mcgill.ca) to pursue a stronger theoretical understanding of engineering.
 
-- At 13, I went to space camp and fell in love. I went back two more times and promised myself that I'd work in space. I've since helped build three generations of satellites and have tangentially worked on two more.
-
-- At 14, I was almost expelled for finding a backdoor into my high school's file server and telling everyone but the faculty members about it. Later that year, I figured out how to turn off the internet firewall by editing system registry keys. I anonymously shared my work months later.
-
-- At 16, I participated in a foreign exchange program in Dortmund, Germany. Since then, I've gone back almost every year.
-
-- 14 - 17, I played a lot of video games. My favorites included Counter Strike Source, Command and Conquer 3, Halo 2, and Age of Empires 3.
-
-- At 18, In the summer before college, my friends and I started playing <a href="https://en.wikipedia.org/wiki/Quidditch_(sport)">Muggle Quidditch</a>. We went on to start over 8 teams in the [International Quidditch Association](https://en.wikipedia.org/wiki/International_Quidditch_Association) including the [Buffalo Quidditch Society](https://www.facebook.com/buffaloquidditch/). At our height, we were ranked third in the IQA. Although I don't play anymore, you can still see pictures of me holding a broom while wearing a chess camp t-shirt on facebook.
-
-- At 19, I took my first graduate course and published my first academic paper.
-
-- At 20, I coauthored a grant to build a satellite and managed a 60+ person team through the end of undergrad. You can read more about that [here](https://ubnl.space/glados/).
-
-You can ask me in person for other stories that I'm afraid to share with the internet.
+- In 2019, I became a Canadian Citizen on [July 1st](https://en.wikipedia.org/wiki/Canada_Day)
 <br><br>
 #### I like
-- Skiing
-- Sailing and the sea
-- Space
-- Summer
-- [Books](https://www.goodreads.com/mdangelo)
-- Colored pencils
-- NPR podcasts
-- [Photography](https://instagram.com/dangelosaurus)
-
-#### Travel / Geography
-
-- I am from originally from Buffalo, New York. I have since lived in
-Palo Alto, Mountain View, San Francisco, Seattle, and New York.
-
-- I've been to ~ 50 countries, some of which I have forgotten, and many of which I would like to revisit.
-
-- In 2016, I visited: Canada, Ethiopia, Austria, Germany, Belgium, Ireland, Northern Ireland, Italy, Romania, Sweden, Norway, Svalbard, Panama, Costa Rica, Uganda, Japan, and the UAE, mostly in that order.
-
-- In 2017, I visited: Canada, Japan, Denmark, Germany, Sweden, Estonia, Russia, the Netherlands, Belgium, the U.K., Spain, Iceland, France, Switzerland, Ethiopia, and Luxembourg.
-
-- In 2018, I visited: Canada, France, Italy, Israel, and the U.K.
-
-- In 2019, I plan to visit: the U.K., France, Canada, Australia, Chile, Nepal, and Norway.
-
-- I am an Oregon Trail II enthusiast.
+- Swimming
+- Running
+- Hiking
+- Karaoke
+- Languages
+- Montreal's Winter
+- Sleeping
+- Computer Games.
 
 #### Fun Facts
 
-- I have a list of thousands of ideas, like creating matching bow ties for cats and humans.
-- I almost always have a sketchbook with me.
-- I can't locate every country on a map.
-- I operate a [small angel fund](http://skepticalinvestments.biz/) with terrible returns.
-- I added this page because so many people complained that my site was just a resume.
+- I am left handed and my handwriting is barely legible.
+- I am really bad with maps and orientation.
+- I wanted a bee hive and taking care of bees as pets.
+- I have a rubber ducky that I use for debugging
+- I can't draw and used to have my friends do my arts assignments.
+- I invested in bitcoin and made zero profits.
 
 #### I dream of
-- always finding inspiration.
-- enabling a brighter future.
-- doing better.
-- no one checking my commit history for early drafts of this file.
+- cracking the motivation puzzle.
+- changing the world to the better.
+- being more productive.
+- learning some parkour.

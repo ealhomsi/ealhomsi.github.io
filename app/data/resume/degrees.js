@@ -1,15 +1,20 @@
-const degrees = [
-  {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
-  }, {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+const degrees = [{
+    school: 'McGill University',
+    degree: 'B.Eng Software Engineering',
+    link: 'https://McGill.ca',
+    year: 2020,
   },
+  {
+    school: 'Concordia University',
+    degree: 'B.Eng Software Engineering',
+    link: 'https://concordia.ca',
+    year: 2017,
+  }, {
+    school: 'Damascus University',
+    degree: 'B.Eng Software Engineering',
+    link: 'https://en.wikipedia.org/wiki/Damascus_University',
+    year: 2016,
+  }
 ];
 
 export default degrees;

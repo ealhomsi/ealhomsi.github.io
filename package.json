@@ -13,7 +13,7 @@
     "parse-routes": "node -r @babel/register parseRoutes.js",
     "gh-pages": "gh-pages -d dist",
     "predeploy": "npm install && npm run build && cp -r public/* dist/ && cp dist/index.html dist/404.html && npm run parse-routes",
-    "deploy": "cd dist && git init && git remote add origin https://github.com/ealhomsi/ealhomsi.github.io.git && git add . && git commit -m autobuild && git push --force origin master"
+    "deploy": "cd dist && git init && git remote add origin git@github.com:ealhomsi/ealhomsi.github.io.git && git add . && git commit -m autobuild && git push --force origin master"
   },
   "dependencies": {
     "@babel/cli": "^7.4.4",

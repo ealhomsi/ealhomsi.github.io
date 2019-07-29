@@ -6,8 +6,7 @@ import faAngellist from '@fortawesome/fontawesome-free-brands/faAngellist';
 import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
 import faEnvelope from '@fortawesome/fontawesome-free-regular/faEnvelope';
 
-const data = [
-  {
+const data = [{
     link: 'https://github.com/ealhomsi',
     label: 'Github',
     icon: faGithub,
@@ -38,7 +37,7 @@ const data = [
     icon: faTwitter,
   },
   {
-    link: 'mailto:eliashomsiwebsite@gmail.com',
+    link: 'mailto:hi@eliashomsi.com',
     label: 'Email',
     icon: faEnvelope,
   },

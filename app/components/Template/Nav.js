@@ -14,7 +14,7 @@ const Nav = () => (
       </Link>
       <header>
         <h2>Elias Homsi</h2>
-        <p><a href="mailto:eliashomsiwebsite@gmail.com">eliashomsiwebsite@gmail.com</a></p>
+        <p><a href="mailto:hi@eliashomsi.com">hi@eliashomsi.com</a></p>
       </header>
     </section>
 

@@ -1,7 +1,15 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import React, {
+  useState,
+  useEffect,
+  useRef
+} from 'react';
+import {
+  Link
+} from 'react-router-dom';
 import Helmet from 'react-helmet';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  FontAwesomeIcon
+} from '@fortawesome/react-fontawesome';
 
 import Main from '../layouts/Main';
 
@@ -19,19 +27,14 @@ const messages = [
   'hi',
   'hello',
   'hola',
-  'you-can-email-me-at-literally-anything! Really',
-  'well, not anything. But most things',
-  'like-this',
+  'root',
+  'you-can-email-me-at-literally-anything',
+  'literally',
+  'just-say-hi',
   'or-this',
-  'but not this :(  ',
-  'you.can.also.email.me.with.specific.topics.like',
-  'just-saying-hi',
+  'marhaba',
   'please-work-for-us',
   'help',
-  'admin',
-  'or-I-really-like-your-website',
-  'I\'ll-stop-distracting-you-now',
-  'thanks',
 ];
 
 const useInterval = (callback, delay) => {
@@ -105,6 +108,8 @@ const Contact = () => {
             <li key={s.label}><a href={s.link}><FontAwesomeIcon icon={s.icon} /></a></li>
           ))}
         </ul>
+        
+        <p><a href="/resume.pdf">download my <strong>resume.pdf</strong></a></p>
       </article>
     </Main>
   );

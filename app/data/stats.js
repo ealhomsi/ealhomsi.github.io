@@ -5,8 +5,8 @@ const data = {
   },
   countries: {
     label: 'Countries visited',
-    value: 53,
-    link: 'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
+    value: 5,
+    link: 'https://map1.maploco.com/visited-countries/mine.php?c1=m672jxbk74-b33j9ynrb4-b33jaimy2o-b33j9ynrb4-2rs3pomeps',
   },
   location: {
     label: 'Current city',
