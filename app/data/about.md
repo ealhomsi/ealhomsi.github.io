@@ -1,7 +1,7 @@
 
 #### Intro
 
-So, My name is Elias and could be nicknamed Eli or Mr. E. I am originally from Syria and I have lived in both Lebanon and Canada.
+So, My name is Elias and could be nicknamed Eli or Mr. E. I am Canadian/Syrian and I have lived in Montreal, Beirut and Damascus.
 I like sports: hiking, swimming and running. I also like playing video games like Dota 2 and World of Warcraft.
 <br><br>
 

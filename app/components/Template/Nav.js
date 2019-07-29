@@ -21,7 +21,7 @@ const Nav = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Elias. I like solving problems.
-            I am a <a href="https://mcgill.ca/">McGill B.Eng </a> undergradue. I was
+            I am a <a href="https://mcgill.ca/">McGill B.Eng </a> undergraduate. I was
             at <a href="http://Microsoft.com">Microsoft</a>, <a href="http://Shopify.com">Shopify</a>, <a href="http://d3center.ca/">District3 Innovation Center </a>.
       </p>
       <ul className="actions">
