@@ -77,12 +77,6 @@ const courses = [{
     univerity: 'McGill',
   },
   {
-    title: 'Applied Machine Learning',
-    number: 'COMP 551',
-    link: 'https://www.mcgill.ca/study/2018-2019/courses/comp-551',
-    univerity: 'McGill',
-  },
-  {
     title: 'Programming Lang & Paradigms',
     number: 'COMP 302',
     link: 'https://www.mcgill.ca/study/2018-2019/courses/comp-302',
