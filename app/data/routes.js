@@ -21,6 +21,10 @@ const data = [
     label: 'Stats',
   },
   {
+    path: '/shopify',
+    label: 'Shopify'
+  },
+  {
     path: '/contact',
     label: 'Contact',
   },

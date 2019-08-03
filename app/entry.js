@@ -26,6 +26,10 @@ ReactDOM.render(
       <Route path="/stats" component={Stats} />
       <Route path="/contact" component={Contact} />
       <Route path="/resume" component={Resume} />
+      <Route path='/shopify' component={() => {
+        window.location.href = 'https://shopify.eliashomsi.com';
+        return null;
+      }}/>
       {/* Only useful in development mode */}
       <Route component={NotFound} status={404} />
     </Switch>
