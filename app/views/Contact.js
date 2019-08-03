@@ -110,7 +110,7 @@ const Contact = () => {
         </ul>
         
         <p><a href="/resume.pdf">download my <strong>resume.pdf</strong></a></p>
-        <p><a href="shopify.eliashomsi.com"> <i>bonus:</i> checkout my cool tshirts website</a></p>
+        <p><a href="https://shopify.eliashomsi.com"> <i>bonus:</i> checkout my cool tshirts website</a></p>
       </article>
     </Main>
   );
