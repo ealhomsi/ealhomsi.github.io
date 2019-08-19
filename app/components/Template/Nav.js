@@ -23,6 +23,7 @@ const Nav = () => (
       <p>Hi, I&apos;m Elias. I like solving problems.
             I am a <a href="https://mcgill.ca/">McGill B.Eng </a> undergraduate. I was
             at <a href="http://Microsoft.com">Microsoft</a>, <a href="http://Shopify.com">Shopify</a>, <a href="http://d3center.ca/">District3 Innovation Center </a>.
+            My personality type is <a href="https://www.16personalities.com/intj-personality">INTJ-T</a>
       </p>
       <ul className="actions">
         <li>
