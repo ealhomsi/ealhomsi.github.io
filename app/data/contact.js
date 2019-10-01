@@ -43,7 +43,7 @@ const data = [{
     icon: faEnvelope,
   },
   {
-    link: 'https://owncloud.org/federation#user@13.90.98.182',
+    link: 'https://owncloud.org/features/federation/#admin@god.eliashomsi.com',
     label: 'OwnCloud',
     icon: faFolder,
   }
