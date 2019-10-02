@@ -25,6 +25,10 @@ const data = [
     label: 'Shopify'
   },
   {
+    path: '/ownCloud',
+    label: 'ownCloud'
+  },
+  {
     path: '/contact',
     label: 'Contact',
   },

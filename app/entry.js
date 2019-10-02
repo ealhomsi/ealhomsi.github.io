@@ -30,6 +30,10 @@ ReactDOM.render(
         window.location.href = 'https://shopify.eliashomsi.com';
         return null;
       }}/>
+      <Route path='/ownCloud' component={() => {
+        window.location.href = 'https://god.eliashomsi.com';
+        return null;
+      }}/>
       {/* Only useful in development mode */}
       <Route component={NotFound} status={404} />
     </Switch>

@@ -1,4 +1,15 @@
 const positions = [{
+  company: 'RBC Bank',
+  position: 'Software Engineer Capstone Project',
+  link: 'https://www.rbcroyalbank.com',
+  daterange: 'September 2019 - May 2020',
+  points: [
+    'Software Engineering Graduation Project in collaboration with RBC bank in Canada.',
+      'Extrapolate customer insights to build economic predictions.',
+      'Create a graphical representation of RBC customers ecosystem in realtime.',
+      'Implement network science techniques to uncover insights relating to the economical structure.'
+  ],
+}, {
   company: 'Microsoft USA',
   position: 'Software Engineer Intern',
   link: 'https://microsoft.com',
