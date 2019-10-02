@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
-
+import Particles from 'react-particles-js';
+ 
 const Index = () => (
   <Main>
     <article className="post" id="index">
@@ -21,6 +22,24 @@ const Index = () => (
       </p>
       <p> Source available <a href="https://github.com/ealhomsi/ealhomsi.github.io">here</a>.</p>
     </article>
+    <Particles 
+      height="15rem"
+      params={{
+        particles: {
+          line_linked: {
+            shadow: {
+              enable: true,
+              color: "#333333",
+              blur: 3,
+              opacity: 0.1
+            }
+          }
+        }
+      }}
+      style={{
+        width: '100%'
+      }}
+    />
   </Main>
 );
 
