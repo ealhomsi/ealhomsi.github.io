@@ -31,7 +31,7 @@ ReactDOM.render(
         return null;
       }}/>
       <Route path='/ownCloud' component={() => {
-        window.location.href = 'https://god.eliashomsi.com';
+        window.location.href = 'https://vrataski.eliashomsi.com';
         return null;
       }}/>
       {/* Only useful in development mode */}
