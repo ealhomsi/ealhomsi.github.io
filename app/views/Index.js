@@ -22,24 +22,27 @@ const Index = () => (
       </p>
       <p> Source available <a href="https://github.com/ealhomsi/ealhomsi.github.io">here</a>.</p>
     </article>
-    <Particles 
-      height="15rem"
-      params={{
-        particles: {
-          line_linked: {
-            shadow: {
-              enable: true,
-              color: "#333333",
-              blur: 3,
-              opacity: 0.1
+    <article id="mobile">
+      <Particles 
+        id="mobile"
+        height="15rem"
+        params={{
+          particles: {
+            line_linked: {
+              shadow: {
+                enable: true,
+                color: "#333333",
+                blur: 3,
+                opacity: 0.1
+              }
             }
           }
-        }
-      }}
-      style={{
-        width: '100%'
-      }}
-    />
+        }}
+        style={{
+          width: '100%'
+        }}
+      />
+    </article>
   </Main>
 );
 
