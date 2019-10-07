@@ -5,7 +5,7 @@ import faLinkedinIn from '@fortawesome/fontawesome-free-brands/faLinkedinIn';
 import faAngellist from '@fortawesome/fontawesome-free-brands/faAngellist';
 import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
 import faEnvelope from '@fortawesome/fontawesome-free-regular/faEnvelope';
-import faFolder from '@fortawesome/fontawesome-free-regular/faFolder';
+import faStar from '@fortawesome/fontawesome-free-regular/faStar';
 
 const data = [{
     link: 'https://github.com/ealhomsi',
@@ -43,9 +43,9 @@ const data = [{
     icon: faEnvelope,
   },
   {
-    link: 'https://owncloud.org/features/federation/#elias.alhomsi@hotmail.com@vrataski.eliashomsi.com',
-    label: 'OwnCloud',
-    icon: faFolder,
+    link: 'https://devpost.com/ealhomsi',
+    label: 'DevPost',
+    icon: faStar,
   }
 ];
 
