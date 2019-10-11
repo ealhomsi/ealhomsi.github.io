@@ -23,7 +23,7 @@ const data = [{
 }, {
   title: 'McGill CodeJam 2019',
   subtitle: 'Website for Hackathon at McGill University',
-  link: 'https://https://codejam2019.herokuapp.com',
+  link: 'https://codejam2019.herokuapp.com',
   image: '/images/projects/mcgill-code-jam-2019.png',
   date: '2019-10-11',
   desc: 'McGill CodeJam is the yearly hackathon run by the McGill Electrical, Computer, and Software Student Society in our very own Trottier Engineering Building.',
