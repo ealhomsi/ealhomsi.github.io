@@ -30,8 +30,8 @@ ReactDOM.render(
         window.location.href = 'https://shopify.eliashomsi.com';
         return null;
       }}/>
-      <Route path='/ownCloud' component={() => {
-        window.location.href = 'https://vrataski.eliashomsi.com';
+      <Route path='/lyssa' component={() => {
+        window.location.href = 'https://lyssa.eliashomsi.com';
         return null;
       }}/>
       {/* Only useful in development mode */}

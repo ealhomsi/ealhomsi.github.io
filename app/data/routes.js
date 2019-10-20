@@ -25,8 +25,8 @@ const data = [
     label: 'Shopify'
   },
   {
-    path: '/ownCloud',
-    label: 'ownCloud'
+    path: '/lyssa',
+    label: 'Lyssa'
   },
   {
     path: '/contact',
