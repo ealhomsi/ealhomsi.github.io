@@ -11,11 +11,6 @@ const pages = [
     heading: 'ABOUT THIS SITE',
   },
   {
-    route: '/about',
-    title: 'About | Elias Homsi',
-    heading: 'ABOUT ME',
-  },
-  {
     route: '/projects',
     title: 'Projects | Elias Homsi',
     heading: 'PROJECTS',
