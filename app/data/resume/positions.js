@@ -1,5 +1,5 @@
 const positions = [{
-  company: 'RBC Bank',
+  company: 'RBC Bank (Montreal)',
   position: 'Software Engineer Capstone Project',
   link: 'https://www.rbcroyalbank.com',
   daterange: 'September 2019 - May 2020',
@@ -10,7 +10,7 @@ const positions = [{
       'Implement network science techniques to uncover insights relating to the economical structure.'
   ],
 }, {
-  company: 'Microsoft USA',
+  company: 'Microsoft (Redmond)',
   position: 'Software Engineer Intern',
   link: 'https://microsoft.com',
   daterange: 'July 2019 - September 2019',
@@ -20,7 +20,7 @@ const positions = [{
     'Worked using Azure services for notifications and networking.',
   ],
 }, {
-  company: 'Shopify',
+  company: 'Shopify (Montreal)',
   position: 'Software Engineer Intern',
   link: 'http://shopify.com',
   daterange: 'January 2019 - June 2019',
@@ -31,7 +31,7 @@ const positions = [{
     'Participated in code reviews and fixed bugs on regular basis'
   ],
 }, {
-  company: 'Microsoft Vancouver',
+  company: 'Microsoft (Vancouver)',
   position: 'Software Engineer Intern',
   link: 'https://microsoft.com',
   daterange: 'May 2018 - August 2018',
@@ -42,7 +42,7 @@ const positions = [{
     'Learned azure technologies for notifications, data storage and security.',
   ],
 }, {
-  company: 'District3 Innovation Center',
+  company: 'District3 Innovation Center (Montreal)',
   position: 'Software Engineer Intern',
   link: 'http://d3center.ca',
   daterange: 'May 2017 - August 2017',

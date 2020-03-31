@@ -1,36 +1,33 @@
-// TODO: How should these be sorted?
-
-// TODO: Add Althetic Skills, Office Skills (?)
 export const categories = [{
   name: 'Data Science',
-  color: '#112222',
+  color: '#444444',
 }, {
   name: 'Databases',
-  color: '#00022e',
+  color: '#444444',
 }, {
   name: 'Design',
-  color: '#34414e',
+  color: '#444444',
 }, {
   name: 'Frameworks',
-  color: '#373e02',
+  color: '#444444',
 }, {
   name: 'Javascript',
-  color: '#3e6257',
+  color: '#444444',
 }, {
   name: 'Languages',
-  color: '#220a0a',
+  color: '#444444',
 }, {
   name: 'Machine Learning',
-  color: '#420303',
+  color: '#444444',
 }, {
   name: 'Python',
-  color: '#3a181a',
+  color: '#444444',
 }, {
   name: 'Tools',
-  color: '#40494e',
+  color: '#444444',
 }, {
   name: 'Web Development',
-  color: '#cc7b94',
+  color: '#444444',
 }, ];
 
 export const skills = [{

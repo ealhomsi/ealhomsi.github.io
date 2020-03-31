@@ -1,4 +1,3 @@
-// TODO Add a couple lines about each project
 const data = [{
   title: 'LoKate',
   subtitle: '2017 CodeJam Hackathon Won 3rd Place',
