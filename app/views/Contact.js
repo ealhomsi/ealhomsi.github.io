@@ -102,6 +102,7 @@ const Contact = () => {
               <span>@eliashomsi.com</span>
             </a>
           </div>
+          or visit my <a href='https://shopify.eliashomsi.com'> Shopify store </a>
         </div>
         <ul className="icons">
           {data.map(s => (

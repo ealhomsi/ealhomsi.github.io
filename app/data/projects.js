@@ -26,6 +26,13 @@ const data = [{
   image: '/images/projects/mcgill-code-jam-2019.png',
   date: '2019-10-11',
   desc: 'McGill CodeJam is the yearly hackathon run by the McGill Electrical, Computer, and Software Student Society in our very own Trottier Engineering Building.',
+}, {
+  title: 'NextCloud Server',
+  subttile: 'My personal storage server',
+  link : 'https://nextcloud.eliashomsi.com',
+  image: '/images/projects/nextcloud.png',
+  date: '2020-01-01',
+  desc: 'My personal cloud storage installation similar in functionalities to GDrive'
 }
 ];
 

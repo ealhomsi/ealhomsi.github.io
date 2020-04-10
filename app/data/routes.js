@@ -13,14 +13,6 @@ const data = [
     label: 'Projects',
   },
   {
-    path: '/shopify',
-    label: 'Shopify'
-  },
-  {
-    path: '/lyssa',
-    label: 'Lyssa'
-  },
-  {
     path: '/contact',
     label: 'Contact',
   },
