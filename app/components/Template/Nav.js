@@ -39,6 +39,7 @@ const Nav = () => (
         ))}
       </ul>
       <p className="copyright">&copy;Elias Homsi <Link to="/">eliashomsi.com</Link>.</p>
+      <p className="copyright"> <a href="https://www.websitepolicies.com/policies/view/dMUREkTi" target="_blank"> Cookie Policy </a> </p>
     </section>
   </section>
 );
