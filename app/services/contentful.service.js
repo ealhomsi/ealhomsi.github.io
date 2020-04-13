@@ -1,8 +1,8 @@
 import { createClient } from 'contentful'
 
 let client = createClient({
-  space: process.env.CONTENTFUL_SPACE,
-  accessToken: process.env.CONTENTFUL_TOKEN,
+  space: CONTENTFUL_SPACE,
+  accessToken: CONTENTFUL_TOKEN,
   host: 'cdn.contentful.com'
 });
 
