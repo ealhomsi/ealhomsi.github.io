@@ -5,6 +5,7 @@ import Helmet from 'react-helmet';
 import ReactGA from 'react-ga';
 import Header from '../components/Template/Header';
 import Nav from '../components/Template/Nav';
+import CookieConsent from "react-cookie-consent";
 
 
 class Main extends Component {
@@ -29,6 +30,20 @@ class Main extends Component {
           {this.props.children}
         </div>
         {!this.props.fullPage && <Nav />}
+        <CookieConsent
+          location="bottom"
+          buttonText="I love cookies"
+          cookieName="myAwesomeCookieName2"
+          buttonStyle={{ background: "#000", padding: "auto"}}
+          expires={150}
+        >
+          <span>
+            We use cookies to understand how you use our site and to improve your experience.
+            By continuing to use our site, you accept our {' '}
+            <a href="https://www.iubenda.com/privacy-policy/12910968" target="_blank">Privacy</a>{' '}
+            <a href="https://www.websitepolicies.com/policies/view/dMUREkTi" target="_blank">& Cookie</a>  Policy
+          </span>
+        </CookieConsent>
       </div>);
   }
 }
