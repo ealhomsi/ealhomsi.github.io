@@ -27,7 +27,7 @@ const Nav = () => (
       </p>
       <ul className="actions">
         <li>
-          <Link to="/resume" className="button">Learn More</Link>
+          <Link to="/about" className="button">Learn More</Link>
         </li>
       </ul>
     </section>

@@ -6,6 +6,7 @@ import {
 
 // Featured
 import Index from './pages/Index';
+import About from './pages/About';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
@@ -21,6 +22,7 @@ ReactDOM.render(
   <Router basename={BASE_PATH}>
     <Switch>
       <Route exact path="/" component={Index} />
+      <Route path="/about" component={About} />
       <Route path="/projects" component={Projects} />
       <Route path="/contact" component={Contact} />
       <Route path="/resume" component={Resume} />

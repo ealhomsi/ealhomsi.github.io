@@ -12,7 +12,7 @@ const Index = () => (
           <p> Source available <a href="https://github.com/ealhomsi/ealhomsi.github.io">here</a>.</p>
         </div>
       </header>
-      <p> Welcome to my website. Please feel free to check out my {' '}
+      <p> Welcome to my website. Please feel free to learn more <Link to="/about"> About Me </Link> or check out my {' '}
         <Link to="/resume">Resume</Link>, {' '}
         <Link to="/projects">Projects</Link>, {' '}
         <Link to="/shopify">Store</Link>, {' '}

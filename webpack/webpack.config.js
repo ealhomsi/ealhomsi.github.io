@@ -22,6 +22,7 @@ export default {
     new webpack.DefinePlugin({
       BASE_PATH: JSON.stringify(basePath),
       NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
+      GA_ID: JSON.stringify(process.env.GA_ID || ''),
       CONTENTFUL_TOKEN: JSON.stringify(process.env.CONTENTFUL_TOKEN || ''),
       CONTENTFUL_SPACE: JSON.stringify(process.env.CONTENTFUL_SPACE || '')
     }),

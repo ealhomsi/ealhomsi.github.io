@@ -9,6 +9,7 @@
   "globals": {
     "BASE_PATH": "readable",
     "NODE_ENV": "readable",
+    "GA_ID": "readable",
     "CONTENTFUL_SPACE": "readable",
     "CONTENTFUL_TOKEN": "readable"
   },

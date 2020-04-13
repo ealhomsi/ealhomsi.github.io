@@ -2,13 +2,23 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
+import ReactGA from 'react-ga';
 import Header from '../components/Template/Header';
 import Nav from '../components/Template/Nav';
 
+
 class Main extends Component {
-  ComponentDidMount() {
+  componentDidMount () {
     window.scrollTo(0, 0);
+
+    // Intialize GA
+    ReactGA.initialize(GA_ID);
+    ReactGA.set({
+      page: window.location.pathname,
+    });
+    ReactGA.pageview(window.location.pathname);
   }
+
 
   render() {
     return (
