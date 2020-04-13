@@ -25,7 +25,6 @@ export class About extends Component {
             about: response.fields.aboutme,
             isLoaded: true
           });
-          console.log(response);
       })
     }
   
