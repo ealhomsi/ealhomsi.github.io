@@ -6,7 +6,7 @@ export class Redirect extends Component {
     this.state = { ...props };
   }
 
-  componentWillMount(){
+  componentDidMount(){
     window.location = this.state.loc;
   }
   

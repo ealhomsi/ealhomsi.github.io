@@ -31,7 +31,6 @@
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.9.0",
     "@babel/runtime": "^7.4.5",
-    "@contentful/rich-text-react-renderer": "^13.4.0",
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
     "@fortawesome/fontawesome-free-regular": "^5.0.13",
