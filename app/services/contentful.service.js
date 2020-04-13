@@ -39,6 +39,21 @@ export async function getSkills() {
   });
 }
 
+export async function getPosts() {
+  return client.getEntries({
+    'content_type': 'post'
+  });
+}
+
+export async function getPost(id) {
+  return client.getEntry(
+    id,
+    {
+      'content_type': 'post'
+    }
+  );
+}
+
 export async function getCategories() {
   return client.getEntries({
     'content_type': 'category'

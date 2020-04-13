@@ -1,10 +1,11 @@
 import {Component} from 'react';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
+import { Link } from 'react-router-dom';
 
 
 
-export class ProjectCell extends Component {
+export class PostCell extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -18,10 +19,10 @@ export class ProjectCell extends Component {
       <div className="cell-container">
         <article className="mini-post">
           <header>
-            <h3><a href={data.link}>{data.title}</a></h3>
-            <time className="published">{dayjs(data.date).format('DD, MMMM, YYYY')}</time>
+            <h3><Link to={{pathname: `/post/${data.id}`}}>{data.title}</Link></h3>
+            <time className="published">{dayjs(data.publishedDate).format('DD, MMMM, YYYY')}</time>
           </header>
-          <a href={data.link} className="image"><img src={data.image} alt="" /></a>
+          <Link className="image" to={{pathname: `/post/${data.id}`}}> <img src={data.image} alt="" /></Link>
           <div className="description">
             <p> {data.description} </p>
           </div>
@@ -31,14 +32,14 @@ export class ProjectCell extends Component {
   }
 }
 
-ProjectCell.propTypes = {
+PostCell.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
+    publishedDate: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
   }).isRequired,
 };
 
-export default ProjectCell;
+export default PostCell;
