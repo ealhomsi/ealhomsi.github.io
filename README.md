@@ -41,9 +41,12 @@ npm run deploy
 ```
 
 5. Setup custom domain
-Decide how and where you are going to host this project. I recommend purchasing your own domain name from [Google Domains](https://domains.google). If you would like to host on github pages, run `npm run predeploy && npm run gh-pages`. Configure your domains DNS record. See [here]( https://help.github.com/articles/using-a-custom-domain-with-github-pages/) for more information.
+Decide how and where you are going to host this project. I recommend purchasing your own domain name from [Google Domains](https://domains.google). If you would like to host on github pages, run `npm run predeploy && npm run gh-pages`. Configure your domains DNS record. See [here](https://help.github.com/articles/using-a-custom-domain-with-github-pages/) for more information.
 
 If using a custom url, modify the `CNAME` file to point to your URL. Modify the npm deploy script by appending `&& cp CNAME dist/` to the end of the `predeploy` line in the scripts section of package.json.
+
+6. Setup Contentful CMS
+Most of the contents on this website is hosted through [ContentfulCMS](https://contentful.com). To run this as a headless server while allowing the flexibility of dynamically modifying content this is a nice solution. You would need to have a setup of of content models like: category, course, degree, position, project and skill similar to mine.
 
 ### License
 [MIT](./Public/LICENSE)

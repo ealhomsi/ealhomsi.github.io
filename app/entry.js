@@ -5,11 +5,11 @@ import {
 } from 'react-router-dom';
 
 // Featured
-import Index from './views/Index';
-import Projects from './views/Projects';
-import Resume from './views/Resume';
-import Contact from './views/Contact';
-import NotFound from './views/NotFound';
+import Index from './pages/Index';
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
 import Redirect from './components/Template/Redirect'
 
 // All of our CSS
