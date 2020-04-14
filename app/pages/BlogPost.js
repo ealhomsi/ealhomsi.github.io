@@ -2,9 +2,21 @@ import { Component } from 'react';
 import Helmet from 'react-helmet';
 import Main from '../layouts/Main';
 import { getPost } from '../services/contentful.service';
-import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
+import { documentToReactComponents}  from '@contentful/rich-text-react-renderer';
 import dayjs from 'dayjs';
 import { Link } from 'react-router-dom';
+import { BLOCKS } from '@contentful/rich-text-types';
+
+const dtrOptions = {
+  renderNode: {
+    [BLOCKS.EMBEDDED_ASSET]: (node) => (
+      <img
+        src={node.data?.target?.fields?.file?.url}
+        alt={node.data?.target?.fields?.title}
+      />
+    ),
+  },
+};
 
 export class BlogPost extends Component {
   constructor(props) {
@@ -65,7 +77,7 @@ export class BlogPost extends Component {
                 <img className="hero" src={post.image}/>
                 <br/>
                 <br/>
-                {documentToReactComponents(post.body)}
+                {documentToReactComponents(post.body, dtrOptions)}
                 <br/>
                 <h5> tags: </h5>
                 {
