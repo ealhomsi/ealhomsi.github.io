@@ -61,17 +61,19 @@ export class BlogPost extends Component {
                   <h4> by Elias Homsi </h4>
                 </div>
               </header>
-              <img className="hero" src={post.image}/>
-              <br/>
-              <br/>
-              {documentToReactComponents(post.body)}
-              <br/>
-              <h5> tags: </h5>
-              {
-                this.state.post.tags.map(tag => {
-                  return(<span className="tag"> #{tag} </span>);
-                })
-              }
+              <article className="post" id="about">
+                <img className="hero" src={post.image}/>
+                <br/>
+                <br/>
+                {documentToReactComponents(post.body)}
+                <br/>
+                <h5> tags: </h5>
+                {
+                  this.state.post.tags.map(tag => {
+                    return(<span className="tag"> #{tag} </span>);
+                  })
+                }
+              </article>
             </span>
           ): (!error? (<h3> loading ... </h3>): (<h3> Post was not found ... </h3>))  }
         </article>

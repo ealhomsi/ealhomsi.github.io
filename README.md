@@ -10,9 +10,11 @@ Tested with:
 * node >= v8, v9, v10, v11
 * Recommend [yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable) >= 1.0.0
 
+### To Do:
+- Add filter projects and blogs per tags or name
+- Add some publications
 
 ### Set up:
-
 
 1. To download the repository and install dependencies, run the following commands:
 ```bash
