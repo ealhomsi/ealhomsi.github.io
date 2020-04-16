@@ -9,5 +9,26 @@
 		color: #F5CB5C;
 		margin: 0 0.3em;
 	}
+
+	p {
+		margin: 2em 0;
+	}
+
+	li {
+		p {
+	  		margin: auto;
+		}
+	}
+
+	img.inpostImage{
+		width:40%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	h5 {
+		margin-bottom: 0.3em;
+	}
 }
   

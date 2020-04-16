@@ -60,9 +60,6 @@ export class BlogPost extends Component {
     return (
       <Main>
         <Helmet title="BlogPost" />
-        <article className="post" id="blogPost">
-          
-          
           {(isLoaded && !error)? 
           ( 
             <span>
@@ -74,7 +71,7 @@ export class BlogPost extends Component {
                   <h4> by Elias Homsi </h4>
                 </div>
               </header>
-              <article className="post" id="about">
+              <article className="post" id="blogPost">
                 <img className="hero" src={post.image}/>
                 <br/>
                 <br/>
@@ -89,7 +86,6 @@ export class BlogPost extends Component {
               </article>
             </span>
           ): (!error? (<h3> loading ... </h3>): (<h3> Post was not found ... </h3>))  }
-        </article>
       </Main>
     );
   }
