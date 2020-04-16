@@ -11,6 +11,7 @@ const dtrOptions = {
   renderNode: {
     [BLOCKS.EMBEDDED_ASSET]: (node) => (
       <img
+        className="inpostImage"
         src={node.data?.target?.fields?.file?.url}
         alt={node.data?.target?.fields?.title}
       />
