@@ -24,7 +24,8 @@ export default {
       NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'production'),
       GA_ID: JSON.stringify(process.env.GA_ID || ''),
       CONTENTFUL_TOKEN: JSON.stringify(process.env.CONTENTFUL_TOKEN || ''),
-      CONTENTFUL_SPACE: JSON.stringify(process.env.CONTENTFUL_SPACE || '')
+      CONTENTFUL_SPACE: JSON.stringify(process.env.CONTENTFUL_SPACE || ''),
+      MAILCHIMP_URL: JSON.stringify(process.env.MAILCHIMP_URL || ''),
     }),
     new HtmlWebpackPlugin({
       template: 'server/views/index.tpl.html',

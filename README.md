@@ -50,6 +50,9 @@ If using a custom url, modify the `CNAME` file to point to your URL. Modify the 
 6. Setup Contentful CMS
 Most of the contents on this website is hosted through [ContentfulCMS](https://contentful.com). To run this as a headless server while allowing the flexibility of dynamically modifying content this is a nice solution. You would need to have a setup of of content models like: category, course, degree, position, project and skill similar to mine.
 
+7. Setup mailchimp newsletter
+You would need to provide a mailchimp url to your env file in case you want users to subscribe to your newsletter
+
 ### License
 [MIT](./Public/LICENSE)
 

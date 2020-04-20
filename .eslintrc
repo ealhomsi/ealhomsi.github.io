@@ -11,7 +11,8 @@
     "NODE_ENV": "readable",
     "GA_ID": "readable",
     "CONTENTFUL_SPACE": "readable",
-    "CONTENTFUL_TOKEN": "readable"
+    "CONTENTFUL_TOKEN": "readable",
+    "MAILCHIMP_URL": "readable"
   },
   "rules": {
     "no-console": ["error", { allow: ["warn", "error", "info"] }],
