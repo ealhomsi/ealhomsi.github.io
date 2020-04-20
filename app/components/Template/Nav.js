@@ -44,7 +44,7 @@ export class Nav extends ContactFetcherComponent {
               <span>
                 <ul className="icons">
                   {contacts.map(data => (
-                    <li key={data.label}><a href={data.link}><FontAwesomeIcon icon={data.icon}/></a></li>
+                    <li key={data.label}><a target="_blank" href={data.link}><FontAwesomeIcon icon={data.icon}/></a></li>
                   ))}
                 </ul>
               </span>): (<h3> loading ... </h3>) }
