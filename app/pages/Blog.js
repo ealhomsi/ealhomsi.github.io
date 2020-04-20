@@ -1,39 +1,10 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Helmet from 'react-helmet';
 import Main from '../layouts/Main';
 import { getPosts } from '../services/contentful.service';
 import PostCell from '../components/Blog/PostCell';
-import MailchimpSubscribe from "react-mailchimp-subscribe"
-
-
-const CustomMailChimpForm = ({ status, message, onValidated }) => {
-  let email;
-  const submit = () =>
-    email &&
-    email.value.indexOf("@") > -1 &&
-    onValidated({
-      EMAIL: email.value,
-    });
-
-  return (
-    <div>
-      {status === "sending" && <div>sending...</div>}
-      {status === "success" && <div>check your inbox for verification </div>}
-      <input
-        ref={node => (email = node)}
-        type="email"
-        placeholder="Your email"
-      />
-   
-      <br />
-      <button onClick={submit}>
-        Subscribe
-      </button>
-    </div>
-  );
-};
-
+import SubscribeToNewsLetter from '../components/Template/SubscribeToNewsLetter';
 
 export class Blog extends Component {
   constructor(props) {
@@ -75,19 +46,6 @@ export class Blog extends Component {
             <div className="title">
               <h2><Link to="/blog">Blog</Link></h2>
               <p>Combination of findings and tutorials</p>
-              <div>
-                <h4> Subscribe to my news letter </h4>
-                <MailchimpSubscribe
-                url={MAILCHIMP_URL}
-                render={({ subscribe, status, message }) => (
-                  <CustomMailChimpForm
-                    status={status}
-                    message={message}
-                    onValidated={formData => subscribe(formData)}
-                  />
-                )}
-                />
-              </div>
             </div>
           </header>
           
@@ -97,6 +55,7 @@ export class Blog extends Component {
                   key={post.id}
                 />))): (<h3> loading ... </h3>) }
         </article>
+        <SubscribeToNewsLetter />
       </Main>
     );
   }

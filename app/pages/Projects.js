@@ -19,14 +19,16 @@ export class Projects extends Component {
   }
 
   fetchProjects() {
+    const parser = (items) => items.map(item => {
+      let newitem = item.fields;
+      newitem.image = newitem.image.fields.file['url'];
+      return newitem;
+    })
+
     getProjects()
     .then(response => {
       this.setState({
-        projects: response.items.map(item => {
-          let newitem = item.fields;
-          newitem.image = newitem.image.fields.file['url'];
-          return newitem;
-        }),
+        projects: parser(response.items),
         isLoaded: true,
       });
     })

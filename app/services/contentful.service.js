@@ -1,7 +1,5 @@
 import { createClient } from 'contentful'
-
-const CONTENTFUL_HOST = 'cdn.contentful.com';
-const ABOUT_ME_ID = '6jlj54NtDEVfRAWZJOgfIN';
+import {CONTENTFUL_HOST, ABOUT_ME_ID} from '../data/const'
 
 let client = createClient({
   space: CONTENTFUL_SPACE,
@@ -47,8 +45,7 @@ export async function getPosts() {
 
 export async function getPost(id) {
   return client.getEntry(
-    id,
-    {
+    id, {
       'content_type': 'post'
     }
   );
@@ -57,6 +54,12 @@ export async function getPost(id) {
 export async function getCategories() {
   return client.getEntries({
     'content_type': 'category'
+  });
+}
+
+export async function getContactIcons() {
+  return client.getEntries({
+    'content_type': 'contactIcon'
   });
 }
 

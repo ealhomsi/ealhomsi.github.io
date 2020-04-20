@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 import { Link } from 'react-router-dom';
 
-
-
 export class PostCell extends Component {
   constructor(props) {
     super(props);
@@ -22,7 +20,7 @@ export class PostCell extends Component {
             <h3><Link to={{pathname: `/post/${data.id}`}}>{data.title}</Link></h3>
             <time className="published">{dayjs(data.publishedDate).format('DD, MMMM, YYYY')}</time>
           </header>
-          <Link className="image" to={{pathname: `/post/${data.id}`}}> <img src={data.image} alt="" /></Link>
+          <Link className="image" to={{pathname: `/post/${data.id}`}}> <img src={data.image} alt={data.title} /></Link>
           <div className="description">
             <p> {data.description} </p>
           </div>

@@ -2,8 +2,6 @@ import {Component} from 'react';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 
-
-
 export class ProjectCell extends Component {
   constructor(props) {
     super(props);
@@ -21,7 +19,7 @@ export class ProjectCell extends Component {
             <h3><a href={data.link}>{data.title}</a></h3>
             <time className="published">{dayjs(data.date).format('DD, MMMM, YYYY')}</time>
           </header>
-          <a href={data.link} className="image"><img src={data.image} alt="" /></a>
+          <a href={data.link} className="image"><img src={data.image} alt={data.title} /></a>
           <div className="description">
             <p> {data.description} </p>
           </div>

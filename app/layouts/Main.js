@@ -6,8 +6,8 @@ import ReactGA from 'react-ga';
 import Header from '../components/Template/Header';
 import Nav from '../components/Template/Nav';
 import CookieConsent from "react-cookie-consent";
+import { PRIVACY_POLICY_URL, COOKIE_POLICY_URL } from '../data/const';
  
-
 class Main extends Component {
   componentDidMount () {
     window.scrollTo(0, 0);
@@ -40,8 +40,8 @@ class Main extends Component {
           <span>
             We use cookies to understand how you use our site and to improve your experience.
             By continuing to use our site, you accept our {' '}
-            <a href="https://www.iubenda.com/privacy-policy/12910968" target="_blank">Privacy</a>{' '}
-            <a href="https://www.websitepolicies.com/policies/view/dMUREkTi" target="_blank">& Cookie</a>  Policy
+            <a href={PRIVACY_POLICY_URL} target="_blank">Privacy</a>{' '}
+            <a href={COOKIE_POLICY_URL} target="_blank">& Cookie</a>  Policy
           </span>
         </CookieConsent>
       </div>);
