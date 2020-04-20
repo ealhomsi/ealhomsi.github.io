@@ -6,7 +6,7 @@ import ReactGA from 'react-ga';
 import Header from '../components/Template/Header';
 import Nav from '../components/Template/Nav';
 import CookieConsent from "react-cookie-consent";
-
+ 
 
 class Main extends Component {
   componentDidMount () {
