@@ -19,16 +19,7 @@ const CustomMailChimpForm = ({ status, message, onValidated }) => {
   return (
     <div>
       {status === "sending" && <div>sending...</div>}
-      {status === "error" && (
-        <div
-          dangerouslySetInnerHTML={{ __html: message }}
-        />
-      )}
-      {status === "success" && (
-        <div
-          dangerouslySetInnerHTML={{ __html: message }}
-        />
-      )}
+      {status === "success" && <div>check your inbox for verification </div>}
       <input
         ref={node => (email = node)}
         type="email"
@@ -37,7 +28,7 @@ const CustomMailChimpForm = ({ status, message, onValidated }) => {
    
       <br />
       <button onClick={submit}>
-        Submit
+        Subscribe
       </button>
     </div>
   );
