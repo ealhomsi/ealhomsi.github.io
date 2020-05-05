@@ -15,6 +15,23 @@ const handleProps = ({ categories, skills }) => ({
 });
 
 class Skills extends Component {
+  static propTypes = {
+    skills: PropTypes.arrayOf(PropTypes.shape({
+      title: PropTypes.string,
+      competency: PropTypes.number,
+      category: PropTypes.arrayOf(PropTypes.string),
+    })),
+    categories: PropTypes.arrayOf(PropTypes.shape({
+      name: PropTypes.string,
+      color: PropTypes.string,
+    })),
+  };
+
+  static defaultProps = {
+    skills: [],
+    categories: [],
+  };
+
   constructor(props) {
     super(props);
     this.state = handleProps({ categories: props.categories, skills: props.skills });
@@ -90,23 +107,5 @@ class Skills extends Component {
     );
   }
 }
-
-Skills.propTypes = {
-  skills: PropTypes.arrayOf(PropTypes.shape({
-    title: PropTypes.string,
-    competency: PropTypes.number,
-    category: PropTypes.arrayOf(PropTypes.string),
-  })),
-  categories: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string,
-    color: PropTypes.string,
-  })),
-};
-
-Skills.defaultProps = {
-  skills: [],
-  categories: [],
-};
-
 
 export default Skills;

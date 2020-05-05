@@ -3,6 +3,16 @@ import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 
 export class ProjectCell extends Component {
+  static propTypes = {
+    data: PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      link: PropTypes.string.isRequired,
+      image: PropTypes.string.isRequired,
+      date: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+    }).isRequired,
+  };
+
   constructor(props) {
     super(props);
     this.state = {
@@ -28,15 +38,5 @@ export class ProjectCell extends Component {
     );
   }
 }
-
-ProjectCell.propTypes = {
-  data: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    link: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-  }).isRequired,
-};
 
 export default ProjectCell;

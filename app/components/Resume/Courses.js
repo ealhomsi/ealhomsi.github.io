@@ -1,6 +1,5 @@
-import React from 'react';
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-
 import Course from './Courses/Course';
 
 const getRows = courses => courses.sort((a, b) => {
@@ -18,29 +17,41 @@ const getRows = courses => courses.sort((a, b) => {
   />
 ));
 
-const Courses = ({ data }) => (
-  <div className="courses">
-    <div className="link-to" id="courses" />
-    <div className="title">
-      <h3>Selected Courses</h3>
-    </div>
-    <ul className="course-list">
-      {getRows(data)}
-    </ul>
-  </div>
-);
+export class Courses extends Component {
+  static propTypes = {
+    data: PropTypes.arrayOf(PropTypes.shape({
+      title: PropTypes.string,
+      number: PropTypes.string,
+      link: PropTypes.string,
+      univerity: PropTypes.string,
+    })),
+  };
 
-Courses.propTypes = {
-  data: PropTypes.arrayOf(PropTypes.shape({
-    title: PropTypes.string,
-    number: PropTypes.string,
-    link: PropTypes.string,
-    univerity: PropTypes.string,
-  })),
-};
+  static defaultProps = {
+    data: [],
+  };
 
-Courses.defaultProps = {
-  data: [],
-};
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: props.data
+    };
+  }
+  
+  render(){
+    const { data } = this.state;
+    return (
+      <div className="courses">
+        <div className="link-to" id="courses" />
+        <div className="title">
+          <h3>Selected Courses</h3>
+        </div>
+        <ul className="course-list">
+          {getRows(data)}
+        </ul>
+      </div>
+    );
+  }
+}
 
 export default Courses;

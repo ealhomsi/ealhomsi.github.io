@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Helmet from 'react-helmet';
 import Main from '../layouts/Main';
 import { getPosts } from '../services/contentful.service';
-import PostCell from '../components/Blog/PostCell';
+import PostCellList from '../components/Blog/PostCellList';
 import SubscribeToNewsLetter from '../components/Template/SubscribeToNewsLetter';
 
 export class Blog extends Component {
@@ -49,11 +49,10 @@ export class Blog extends Component {
             </div>
           </header>
           
-          {isLoaded? ( posts.map(post => (
-                <PostCell
-                  data={post}
-                  key={post.id}
-                />))): (<h3> loading ... </h3>) }
+          {isLoaded? 
+                <PostCellList
+                  posts={posts}
+                />: (<h3> loading ... </h3>) }
         </article>
         <SubscribeToNewsLetter />
       </Main>

@@ -9,6 +9,19 @@ import CookieConsent from "react-cookie-consent";
 import { PRIVACY_POLICY_URL, COOKIE_POLICY_URL } from '../data/const';
  
 class Main extends Component {
+  static propTypes = {
+    children: PropTypes.oneOfType([
+      PropTypes.arrayOf(PropTypes.node),
+      PropTypes.node,
+    ]),
+    fullPage: PropTypes.bool,
+  };
+  
+  static defaultProps = {
+    children: null,
+    fullPage: false,
+  };
+
   componentDidMount () {
     window.scrollTo(0, 0);
 
@@ -19,7 +32,6 @@ class Main extends Component {
     });
     ReactGA.pageview(window.location.pathname);
   }
-
 
   render() {
     return (
@@ -47,18 +59,5 @@ class Main extends Component {
       </div>);
   }
 }
-
-Main.propTypes = {
-  children: PropTypes.oneOfType([
-    PropTypes.arrayOf(PropTypes.node),
-    PropTypes.node,
-  ]),
-  fullPage: PropTypes.bool,
-};
-
-Main.defaultProps = {
-  children: null,
-  fullPage: false,
-};
 
 export default Main;
