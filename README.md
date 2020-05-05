@@ -13,6 +13,7 @@ Tested with:
 ### To Do:
 - Add filter projects and blogs per tags or name
 - Add some publications
+- Add pagination for projects and posts.
 
 ### Set up:
 
